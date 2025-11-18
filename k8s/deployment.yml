@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: app
-          image: <AWS_ACCOUNT_ID>.dkr.ecr.<AWS_REGION>.amazonaws.com/app-repo:initial
+          image: 930758456167.dkr.ecr.us-east-1.amazonaws.com/app-repo:a91f9a71cc4226abbed899cedeba005ab7bb19ab
           ports:
             - containerPort: 80
